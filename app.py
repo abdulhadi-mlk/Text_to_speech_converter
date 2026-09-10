@@ -73,7 +73,7 @@ api_key = st.sidebar.text_input("Enter your Gemini API key", type="password")
 # Select box for model selection
 model = st.sidebar.selectbox(
     "Select Model",
-    ["gemini-3.6-flash-preview-tts", "gemini-2.5-pro-preview-tts"],
+    ["gemini-3.6-flash-preview-tts", "gemini-2.5-pro-preview-tts","gemini-3.1-flash-tts-preview"],
 )
 
 # Select box for voice selection (Gemini prebuilt voices)
